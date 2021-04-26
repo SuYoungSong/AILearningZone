@@ -53,7 +53,7 @@ train_target = target_arr[index[:35]]
 test_input = input_arr[index[35:]]
 test_target = target_arr[index[35:]]
 
-# # 미리 산점도 확인
+# # 미리 산점도 확인하기
 # plt.scatter(train_input[:,0], train_input[:,1])
 # plt.scatter(test_input[:,0], test_input[:,1])
 # plt.xlabel('length')
